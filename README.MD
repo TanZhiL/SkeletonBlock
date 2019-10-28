@@ -15,7 +15,7 @@
 2.app.gradle 添加
 ```java
 dependencies {
-   implementation 'com.github.TanZhiL:SkeletonBlock:1.0.3'
+   implementation 'com.github.TanZhiL:SkeletonBlock:1.0.4'
 }
 
 ```
