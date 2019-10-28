@@ -1,4 +1,4 @@
-package com.gykj.thomas.widget;
+package com.gykj.thomas.simple;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

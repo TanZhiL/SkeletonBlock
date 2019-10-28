@@ -1,11 +1,9 @@
-package com.gykj.thomas.widget;
+package com.gykj.thomas.simple;
 
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;

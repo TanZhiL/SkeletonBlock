@@ -1,4 +1,4 @@
-package com.gykj.thomas.widget;
+package com.gykj.thomas.simple;
 
 import org.junit.Test;
 
