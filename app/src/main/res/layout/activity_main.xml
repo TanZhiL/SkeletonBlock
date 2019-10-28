@@ -28,7 +28,6 @@
         <com.gykj.thomas.widget.SkeletonBlock
             android:id="@+id/tv_title1"
             android:layout_width="0dp"
-            app:sb_duration="600"
             android:layout_height="12dp"
             android:layout_marginStart="8dp"
             android:background="#eeeeee"
