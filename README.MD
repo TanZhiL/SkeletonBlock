@@ -1,5 +1,5 @@
 ﻿### 骨架屏弹性块
-![](undefined)
+![在这里插入图片描述](https://github.com/TanZhiL/SkeletonBlock/blob/master/1.gif)
 
 ## Installation：
 1.project.gradle
