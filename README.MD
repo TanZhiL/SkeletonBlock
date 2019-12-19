@@ -47,6 +47,7 @@ dependencies {
 * 快速切面编程开源库 https://github.com/TanZhiL/OkAspectj
 * 高仿喜马拉雅听Android客户端 https://github.com/TanZhiL/Zhumulangma
 * 骨架屏弹性块 https://github.com/TanZhiL/SkeletonBlock
+* RxPersistence是基于面向对象设计的快速持久化框架 https://github.com/TanZhiL/RxPersistence
 ### License
 ```
 Copyright (C)  tanzhilong SkeletonBlock Framework Open Source Project

@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
+import android.widget.LinearLayout;
 
 
 import java.util.Random;
@@ -32,6 +33,7 @@ public class SkeletonBlock extends View {
         super(context, attrs, defStyleAttr);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, com.gykj.thomas.widget.R.styleable.SkeletonBlock);
         final int d=typedArray.getInteger(com.gykj.thomas.widget.R.styleable.SkeletonBlock_sb_duration,0);
+        final int orientation = typedArray.getInt(R.styleable.SkeletonBlock_sb_orientation, LinearLayout.HORIZONTAL);
         typedArray.recycle();
         final boolean random =new Random().nextBoolean();
         post(new Runnable() {
@@ -43,8 +45,13 @@ public class SkeletonBlock extends View {
                 else if(v>0.8)v=0.8f;
 
                 Animation animation;
+                if(orientation==LinearLayout.HORIZONTAL){
                 animation = new ScaleAnimation(random?1:v,random?v:1, 1, 1,
                         Animation.RELATIVE_TO_SELF, 0, Animation.RELATIVE_TO_SELF, 0);
+                }else {
+                    animation = new ScaleAnimation(1, 1,random?1:v,random?v:1,
+                            Animation.RELATIVE_TO_SELF, 0, Animation.RELATIVE_TO_SELF, 0);
+                }
                 animation.setDuration(d==0?duration:d);
                 animation.setRepeatMode(Animation.REVERSE);
                 animation.setRepeatCount(Animation.INFINITE);

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
     xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <android.support.constraint.ConstraintLayout
+<com.gykj.thomas.widget.SkeletonBlock
+    android:layout_width="50dp"
+    android:background="#eeeeee"
+    app:sb_orientation="vertical"
+    android:layout_height="match_parent"/>
+   <!-- <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout1"
         android:layout_width="match_parent"
         android:layout_height="84dp"
@@ -507,6 +511,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/tv_title"
             app:layout_constraintTop_toBottomOf="@+id/tv_desc"/>
-    </android.support.constraint.ConstraintLayout>
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>-->
+</FrameLayout>
 
